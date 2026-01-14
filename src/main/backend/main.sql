@@ -1,5 +1,9 @@
+CREATE DATABASE campusconnect;
+
+use campusconnect;
+
 CREATE TABLE Student(
-    student_id INT NOT NULL, 
+    student_id INT NOT NULL AUTO_INCREMENT,
     name VARCHAR(150),
     email VARCHAR(100),
     PRIMARY KEY (student_id)
